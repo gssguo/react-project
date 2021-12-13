@@ -1,0 +1,27 @@
+
+.volContainer{
+    display: flex;
+}
+.volCard{
+    width: 60%;
+
+    margin:3rem;
+    text-align: left;
+    padding:1rem;
+    
+}
+
+.volunteerImg{
+    width: 50%;
+    
+    margin:5rem;
+    padding: 1rem;
+    
+}
+
+@media screen and (max-width:1024px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}

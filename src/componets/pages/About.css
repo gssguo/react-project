@@ -1,0 +1,38 @@
+.mainSection{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.contentBox{
+    width: 80%;
+    padding-left: 1em;
+    font-size:1.4rem;
+    margin-top: 2rem;
+}
+.imgContainer {
+    width: 40%;
+
+}
+.imgContainer img {
+    width: 65%;
+    margin: 4em;
+    display: block;
+    border-radius: 120px;
+}
+@media screen and (max-width:1024px) {
+    .mainSection{
+        flex-direction: column;
+        margin-top: 1em;
+    }
+    .contentBox{
+        width: 90%;
+        margin:0;
+        
+    }
+    .imgContainer {
+        width: 80%;
+    
+    }
+    
+}

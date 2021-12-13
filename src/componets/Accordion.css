@@ -1,0 +1,39 @@
+.warpper{
+    margin-top: 2rem;
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+}
+.accordion{
+    width: 1500px;
+    
+}
+.item{
+    background-color:beige;
+    margin-bottom: 5px;
+    padding:10px 20px;
+    
+}
+p{
+    font-weight: bold;
+    text-align: start;
+}
+.title{
+    
+    display: flex;
+    font-size: 1rem;
+
+   
+}
+.content{
+    margin: 0;
+    max-height:0px;
+    overflow:hidden;
+    transition: all 0.5s ;
+} 
+.content.show {
+    height: auto;
+    max-height: 100px;
+    transition: all 1s;
+}
